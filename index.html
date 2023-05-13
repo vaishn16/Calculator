@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h3 style="text-align: center;">Calculator</h1>
+ 
+       <div class="container col-lg-2"  style=" background-color: black; border: solid black 10px ;">
+        <div class="row">
+            <div class="col" id="answerBar" style="text-align: right;">0</div>
+        </div>
+        <div class="row">
+            <div class="col" id="seven" onclick="display(this)" value="7">7</div>
+            <div class="col " id="eight" onclick="display(this)">8</div> 
+            <div class="col" id="nine" onclick="display(this)">9</div>
+            <div class="col" id="divide" style="background-color: orange;" onclick="display(this)">/</div>
+        </div>
+        <div class="row">
+            <div class="col" id="four" onclick="display(this)">4</div>
+            <div class="col" id="five" onclick="display(this)">5</div>
+            <div class="col" id="six" onclick="display(this)">6</div>
+            <div class="col" id="multiply" style="background-color: orange;" onclick="display(this)">X</div>
+        </div>
+        <div class="row">
+            <div class="col" id="one" onclick="display(this)">1</div>
+            <div class="col" id="two" onclick="display(this)">2</div>
+            <div class="col" id="three" onclick="display(this)">3</div>
+            <div class="col" id="plus" onclick="display(this)" style="background-color: orange;">+</div>
+        </div>
+        <div class="row">
+            <div class="col" id="zero" onclick="display(this)">0</div>
+            <div class="col" id="clear" onclick="clearBar()" style="background-color: orange;">C</div>
+            <div class="col" id="equals" onclick="perform()" style="background-color: orange;">=</div>
+            <div class="col" id="minus" onclick="display(this)" style="background-color: orange;">-</div>
+        </div>
+    
+    </div>
+ 
+</body>
+</html>
