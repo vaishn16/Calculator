@@ -62,7 +62,7 @@ function clearBar()
     num1=0;
     num2=0;
     document.getElementById("answerBar").innerHTML=0;
-  
+    operator='';count=false;op='';
 
 }
 
